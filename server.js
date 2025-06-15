@@ -17,14 +17,31 @@ const server = http.createServer((req, res) => {
       );
     }
 
+    if (queryObj.manufacturer) {
+      filteredData = filteredData.filter(
+        (item) =>
+          item.manufacturer.toLowerCase() ===
+          queryObj.manufacturer.toLowerCase()
+      );
+    }
+
     res.end(sendJSON(res, 200, filteredData));
     return;
   }
 
-  if (req.url.startsWith('/api/country')) {
-    console.log(req.url);
+  if (req.url.startsWith('/api/country/')) {
+    const country = req.url.split('/').pop();
+
+    const filteredData = cars.filter(
+      (item) => item.country.toLowerCase() === country.toLowerCase()
+    );
+
+    res.end(sendJSON(res, 200, filteredData));
+    return;
   }
-  res.end(`Please use ${urlObj.hostname}/API to get cars`);
+  res.end(
+    `Please use ${urlObj.hostname}/API to get cars or check documentation for more info!`
+  );
 });
 
 server.listen(PORT, () => {
