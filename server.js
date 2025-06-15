@@ -1,5 +1,5 @@
 import http from 'node:http';
-import { sendJSON, filterData } from './utilities.js';
+import { sendJSON, filterData, getRandomCar } from './utilities.js';
 import { cars } from './data.js';
 
 const PORT = process.env.PORT || 8000;
@@ -26,6 +26,16 @@ const server = http.createServer((req, res) => {
     );
 
     res.end(sendJSON(res, 200, filteredData));
+    return;
+  }
+
+  if (
+    req.url === '/api/randomcar' ||
+    (req.url === '/api/randomcar/' && req.method === 'GET')
+  ) {
+    const randomCar = getRandomCar(cars);
+
+    res.end(sendJSON(res, 200, randomCar));
     return;
   }
   res.end(

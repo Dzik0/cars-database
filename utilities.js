@@ -17,3 +17,18 @@ export function filterData(queryObj, data) {
 
   return filteredData;
 }
+
+export function getRandomCar(data) {
+  const randomNumber = Math.floor(Math.random() * data.length);
+  const properBrand = data[randomNumber];
+  const randomModelNumber = Math.floor(
+    Math.random() * properBrand.models.length
+  );
+  const randomModel = properBrand.models[randomModelNumber];
+  const randomGenerationNumber = Math.floor(
+    Math.random() * randomModel.generations.length
+  );
+  const randomGenerationModel = randomModel.generations[randomGenerationNumber];
+
+  return randomGenerationModel;
+}
