@@ -7,7 +7,7 @@ export const cars = [
         model: 'Corsa',
         generations: [
           {
-            name: 'Corsa A',
+            name: 'Opel Corsa A',
             years: '1982–1993',
             engine: '1.0L–1.6L petrol, 1.5L diesel',
             horsepower: '45–100 hp',
@@ -17,7 +17,7 @@ export const cars = [
             img: 'https://cars-database-ovrv.onrender.com/images/opel-corsa-a.jpg',
           },
           {
-            name: 'Corsa B',
+            name: 'Opel Corsa B',
             years: '1993–2000',
             engine: '1.0L–1.6L petrol, 1.5L diesel',
             horsepower: '45–109 hp',
@@ -27,7 +27,7 @@ export const cars = [
             img: 'https://cars-database-ovrv.onrender.com/images/ope-corsa-b.jpg',
           },
           {
-            name: 'Corsa C',
+            name: 'Opel Corsa C',
             years: '2000–2006',
             engine: '1.0L–1.8L petrol, 1.3L–1.7L diesel',
             horsepower: '58–125 hp',
@@ -37,7 +37,7 @@ export const cars = [
             img: 'https://cars-database-ovrv.onrender.com/images/ope-corsa-c.jpg',
           },
           {
-            name: 'Corsa D',
+            name: 'Opel Corsa D',
             years: '2006–2014',
             engine: '1.0L–1.6L petrol/diesel',
             horsepower: '60–192 hp',
@@ -47,7 +47,7 @@ export const cars = [
             img: 'https://cars-database-ovrv.onrender.com/images/ope-corsa-d.jpg',
           },
           {
-            name: 'Corsa E',
+            name: 'Opel Corsa E',
             years: '2014–2019',
             engine: '1.0L–1.4L petrol, 1.3L diesel',
             horsepower: '70–207 hp',
@@ -57,7 +57,7 @@ export const cars = [
             img: 'https://cars-database-ovrv.onrender.com/images/ope-corsa-e.jpg',
           },
           {
-            name: 'Corsa F',
+            name: 'Opel Corsa F',
             years: '2019–present',
             engine: 'Petrol, diesel, electric (Corsa-e)',
             horsepower: '75–136 hp (Corsa-e)',
@@ -78,7 +78,7 @@ export const cars = [
         model: 'A5',
         generations: [
           {
-            name: 'A5 (B8)',
+            name: 'Audi A5 (B8)',
             years: '2007–2016',
             engine: '1.8L–4.2L petrol, 2.0L–3.0L diesel',
             horsepower: '160–450 hp',
@@ -88,7 +88,7 @@ export const cars = [
             img: 'https://cars-database-ovrv.onrender.com/images/audi-a5-b8.jpg',
           },
           {
-            name: 'A5 (B9)',
+            name: 'Audi A5 (B9)',
             years: '2016–2023',
             engine: '2.0L–3.0L petrol/diesel, mild-hybrid options',
             horsepower: '150–450 hp',
@@ -98,7 +98,7 @@ export const cars = [
             img: 'https://cars-database-ovrv.onrender.com/images/audi-a5-b9.jpeg',
           },
           {
-            name: 'A5 (B10)',
+            name: 'Audi A5 (B10)',
             years: '2024–present',
             engine: 'Mild hybrid petrol/diesel, plug-in hybrids expected',
             horsepower: 'TBD',
@@ -113,7 +113,7 @@ export const cars = [
         model: 'A7',
         generations: [
           {
-            name: 'A7 (Typ 4G)',
+            name: 'Audi A7 (Typ 4G)',
             years: '2010–2017',
             engine: '2.0L–4.0L petrol, 3.0L diesel',
             horsepower: '201–560 hp',
@@ -123,7 +123,7 @@ export const cars = [
             img: 'https://cars-database-ovrv.onrender.com/images/audi-a7-4g.jpg',
           },
           {
-            name: 'A7 (Typ 4K)',
+            name: 'Audi A7 (Typ 4K)',
             years: '2018–2023',
             engine: '2.0L–4.0L mild hybrid petrol/diesel, plug-in hybrid',
             horsepower: '204–591 hp',
@@ -133,7 +133,7 @@ export const cars = [
             img: 'https://cars-database-ovrv.onrender.com/images/audi-a7-4k.jpg',
           },
           {
-            name: 'A7 (Typ F8, facelift)',
+            name: 'Audi A7 (Typ F8, facelift)',
             years: '2024–present',
             engine: 'Mild hybrid petrol/diesel, expected PHEV options',
             horsepower: 'TBD',
@@ -154,7 +154,7 @@ export const cars = [
         model: 'Aventador',
         generations: [
           {
-            name: 'Aventador LP 700-4',
+            name: 'Lamborghini Aventador LP 700-4',
             years: '2011–2016',
             engine: '6.5L V12',
             horsepower: '700 hp',
@@ -164,7 +164,7 @@ export const cars = [
             img: 'https://cars-database-ovrv.onrender.com/images/aventador-lp.jpeg',
           },
           {
-            name: 'Aventador S',
+            name: 'Lamborghini Aventador S',
             years: '2016–2021',
             engine: '6.5L V12',
             horsepower: '740 hp',
@@ -174,7 +174,7 @@ export const cars = [
             img: 'https://cars-database-ovrv.onrender.com/images/aventador-s.jpeg',
           },
           {
-            name: 'Aventador SVJ',
+            name: 'Lamborghini Aventador SVJ',
             years: '2018–2022',
             engine: '6.5L V12',
             horsepower: '770 hp',
@@ -184,7 +184,7 @@ export const cars = [
             img: 'https://cars-database-ovrv.onrender.com/images/aventador-svj.jpeg',
           },
           {
-            name: 'Aventador Ultimae',
+            name: 'Lamborghini Aventador Ultimae',
             years: '2021–2022',
             engine: '6.5L V12',
             horsepower: '780 hp',
@@ -205,7 +205,7 @@ export const cars = [
         model: '812',
         generations: [
           {
-            name: '812 Superfast',
+            name: 'Ferrari 812 Superfast',
             years: '2017–2023',
             engine: '6.5L V12',
             horsepower: '800 hp',
@@ -215,7 +215,7 @@ export const cars = [
             img: 'https://cars-database-ovrv.onrender.com/images/812-supersport.jpeg',
           },
           {
-            name: '812 GTS',
+            name: 'Ferrari 812 GTS',
             years: '2019–2023',
             engine: '6.5L V12',
             horsepower: '800 hp',
@@ -225,7 +225,7 @@ export const cars = [
             img: 'https://cars-database-ovrv.onrender.com/images/812-gts.jpg',
           },
           {
-            name: '812 Competizione',
+            name: 'Ferrari 812 Competizione',
             years: '2021–2023',
             engine: '6.5L V12',
             horsepower: '830 hp',
@@ -236,7 +236,7 @@ export const cars = [
             img: 'https://cars-database-ovrv.onrender.com/images/812-comp.jpg',
           },
           {
-            name: '812 Competizione A',
+            name: 'Ferrari 812 Competizione A',
             years: '2021–2023',
             engine: '6.5L V12',
             horsepower: '830 hp',
