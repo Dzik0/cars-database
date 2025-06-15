@@ -25,7 +25,7 @@ export const cars = [
             design: 'Rounded, friendly design with improved safety',
             notes:
               'Corsa B brought more refinement and modern styling while keeping the car compact and practical. It was also popular as a first car thanks to its ease of use and low running costs.',
-            img: 'https://cars-database-ovrv.onrender.com/images/ope-corsa-b.jpg',
+            img: 'https://cars-database-ovrv.onrender.com/images/opel-corsa-b.jpg',
             country: 'Germany',
           },
           {
@@ -36,7 +36,7 @@ export const cars = [
             design: 'Smoother curves, higher roofline',
             notes:
               'With better interior space and a more grown-up look, the Corsa C focused on practicality while maintaining its urban-friendly nature. It also gained popularity as a small family car.',
-            img: 'https://cars-database-ovrv.onrender.com/images/ope-corsa-c.jpg',
+            img: 'https://cars-database-ovrv.onrender.com/images/opel-corsa-c.jpg',
             country: 'Germany',
           },
           {
@@ -47,7 +47,7 @@ export const cars = [
             design: 'Sportier stance, modernized interior',
             notes:
               'Corsa D introduced a sportier edge to the lineup, with versions like the OPC/VXR hot hatch. It kept its appeal broad — from daily commuters to enthusiasts.',
-            img: 'https://cars-database-ovrv.onrender.com/images/ope-corsa-d.jpg',
+            img: 'https://cars-database-ovrv.onrender.com/images/opel-corsa-d.jpg',
             country: 'Germany',
           },
           {
@@ -58,7 +58,7 @@ export const cars = [
             design: 'Refined look, advanced infotainment',
             notes:
               'A facelift of the D but with significant interior and tech improvements. The range-topping OPC offered serious performance in a compact body.',
-            img: 'https://cars-database-ovrv.onrender.com/images/ope-corsa-e.jpg',
+            img: 'https://cars-database-ovrv.onrender.com/images/opel-corsa-e.jpg',
             country: 'Germany',
           },
           {
@@ -69,7 +69,7 @@ export const cars = [
             design: 'Sharper lines, modern LED lighting',
             notes:
               'Now part of the Stellantis group, the Corsa F rides on a PSA platform and includes a fully electric variant. It combines tradition with new-era efficiency and tech.',
-            img: 'https://cars-database-ovrv.onrender.com/images/ope-corsa-f.jpg',
+            img: 'https://cars-database-ovrv.onrender.com/images/opel-corsa-f.jpg',
             country: 'Germany',
           },
         ],
