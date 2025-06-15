@@ -5,3 +5,15 @@ export function sendJSON(res, statusCode, payLoad) {
   res.statusCode = statusCode;
   res.end(JSON.stringify(payLoad));
 }
+
+export function filterData(queryObj, data) {
+  let filteredData = data;
+
+  if (queryObj.brand) {
+    filteredData = filteredData.filter(
+      (item) => item.brand.toLowerCase() === queryObj.brand.toLowerCase()
+    );
+  }
+
+  return filteredData;
+}
