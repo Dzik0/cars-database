@@ -2,7 +2,7 @@ import http from 'node:http';
 import { sendJSON } from './utilities.js';
 import { cars } from './data.js';
 
-const PORT = 8000;
+const PORT = process.env.PORT || 8000;
 
 const server = http.createServer((req, res) => {
   const urlObj = new URL(req.url, `http://${req.headers.host}`);
