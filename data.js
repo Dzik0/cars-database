@@ -93,7 +93,7 @@ export const cars = [
   {
     brand: 'Audi',
     model: 'A5',
-    generation: '8T (1st Gen)',
+    generation: '8T',
     bodyStyle: 'Coupe, Cabriolet, Sportback',
     country: 'Germany',
     yearStart: '2007',
@@ -109,7 +109,7 @@ export const cars = [
   {
     brand: 'Audi',
     model: 'A5',
-    generation: 'F5 (2nd Gen)',
+    generation: 'F5',
     bodyStyle: 'Coupe, Cabriolet, Sportback',
     country: 'Germany',
     yearStart: '2016',
@@ -126,7 +126,7 @@ export const cars = [
   {
     brand: 'Audi',
     model: 'A5',
-    generation: 'B10 (3rd Gen - Upcoming)',
+    generation: 'B10',
     bodyStyle: 'Coupe, Cabriolet, Sportback (expected)',
     country: 'Germany',
     yearStart: '2024 (expected)',
@@ -143,7 +143,7 @@ export const cars = [
   {
     brand: 'Audi',
     model: 'A7',
-    generation: 'C7 (1st Gen)',
+    generation: 'C7',
     bodyStyle: 'Sportback (5-door liftback)',
     country: 'Germany',
     yearStart: '2010',
@@ -159,7 +159,7 @@ export const cars = [
   {
     brand: 'Audi',
     model: 'A7',
-    generation: 'C8 (2nd Gen)',
+    generation: 'C8',
     bodyStyle: 'Sportback (5-door liftback)',
     country: 'Germany',
     yearStart: '2018',
@@ -175,7 +175,7 @@ export const cars = [
   {
     brand: 'Audi',
     model: 'A7',
-    generation: 'C8 Facelift (2nd Gen FL)',
+    generation: 'C8 Facelift',
     bodyStyle: 'Sportback (5-door liftback)',
     country: 'Germany',
     yearStart: '2023',
@@ -191,7 +191,7 @@ export const cars = [
   {
     brand: 'Ferrari',
     model: '812',
-    generation: '812 Superfast',
+    generation: 'Superfast',
     bodyStyle: 'Berlinetta',
     country: 'Italy',
     yearStart: '2017',
@@ -206,7 +206,7 @@ export const cars = [
   {
     brand: 'Ferrari',
     model: '812',
-    generation: '812 GTS',
+    generation: 'GTS',
     bodyStyle: 'Convertible',
     country: 'Italy',
     yearStart: '2019',
@@ -220,7 +220,7 @@ export const cars = [
   {
     brand: 'Ferrari',
     model: '812',
-    generation: '812 Competizione',
+    generation: 'Competizione',
     bodyStyle: 'Berlinetta',
     country: 'Italy',
     yearStart: '2021',
@@ -234,7 +234,7 @@ export const cars = [
   {
     brand: 'Ferrari',
     model: '812',
-    generation: '812 Competizione A',
+    generation: 'Competizione A',
     bodyStyle: 'Convertible',
     country: 'Italy',
     yearStart: '2021',
@@ -248,7 +248,7 @@ export const cars = [
   {
     brand: 'Lamborghini',
     model: 'Aventador',
-    generation: 'LP 700-4',
+    generation: 'LP-700',
     bodyStyle: 'Coupe',
     country: 'Italy',
     yearStart: '2011',
@@ -263,7 +263,7 @@ export const cars = [
   {
     brand: 'Lamborghini',
     model: 'Aventador',
-    generation: 'LP 740-4 S',
+    generation: 'S',
     bodyStyle: 'Coupe/Roadster',
     country: 'Italy',
     yearStart: '2016',
@@ -277,7 +277,7 @@ export const cars = [
   {
     brand: 'Lamborghini',
     model: 'Aventador',
-    generation: 'LP 770-4 SVJ',
+    generation: 'SVJ',
     bodyStyle: 'Coupe/Roadster',
     country: 'Italy',
     yearStart: '2018',
